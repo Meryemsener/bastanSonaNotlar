@@ -38,11 +38,11 @@
         değişken = (koşul) ? ifadeTrue : ifadeFalse;
         Yazmak yerine:
 
-        Örnek vermek
+        Örnek
         int zaman = 20;
         if (zaman < 18) {
           System.out.println("İyi günler.");
-        } Başka {
+        } else {
           System.out.println("İyi akşamlar.");
         }
 
@@ -50,7 +50,7 @@
 
         Örnek vermek
         int zaman = 20;
-        Dizi sonucu = (zaman < 18) ? "İyi günler." : "İyi geceler.";
+        Dizi sonucu = (zaman < 18) ? "İyi günler." : (zaman<20) ? "İyi geceler.": "yanlis giris";
         System.out.println(sonuç);
 
 
